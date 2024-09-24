@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop - Cadastro de Pet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-success text-white p-3">
+        <div class="container d-flex justify-content-between">
+            <h1>PETSHOP</h1>
+            <div class="text-right">Ambiente Seguro</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>Cadastre seu pet</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nomePet">Nome do pet</label>
+                        <input type="text" id="nomePet" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="idadePet">Idade</label>
+                        <input type="number" id="idadePet" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="pesoPet">Peso (kg)</label>
+                        <input type="number" id="pesoPet" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="racaPet">Raça</label>
+                        <input type="text" id="racaPet" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="sexoPet">Sexo</label>
+                        <select id="sexoPet" class="form-control">
+                            <option>Macho</option>
+                            <option>Fêmea</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="especiePet">Espécie</label>
+                        <select id="especiePet" class="form-control">
+                            <option>Cachorro</option>
+                            <option>Gato</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="portePet">Porte</label>
+                        <select id="portePet" class="form-control">
+                            <option>Pequeno</option>
+                            <option>Médio</option>
+                            <option>Grande</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="corPet">Cor</label>
+                        <input type="text" id="corPet" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Cadastrar Pet</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

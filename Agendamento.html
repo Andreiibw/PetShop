@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop - Agendamento</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-success text-white p-3">
+        <div class="container d-flex justify-content-between">
+            <h1>PETSHOP</h1>
+            <div class="text-right">Ambiente Seguro</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>Agende um serviço</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nomeCliente">Nome do Cliente</label>
+                        <input type="text" id="nomeCliente" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailCliente">E-mail</label>
+                        <input type="email" id="emailCliente" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefoneCliente">Telefone</label>
+                        <input type="text" id="telefoneCliente" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="dataAgendamento">Data do Agendamento</label>
+                        <input type="date" id="dataAgendamento" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="horaAgendamento">Hora do Agendamento</label>
+                        <input type="time" id="horaAgendamento" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="servicoAgendamento">Serviço</label>
+                        <select id="servicoAgendamento" class="form-control">
+                            <option>Banho</option>
+                            <option>Tosa</option>
+                            <option>Vacinação</option>
+                            <option>Consulta</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success">Agendar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
